@@ -5,8 +5,6 @@ public class BigInteger {
     public static void main(String[] args)
     {
 
-
-
         java.math.BigInteger a = new java.math.BigInteger("12345678987654321");
         int exponent1 = 2;
         int exponent2 = 4;
@@ -20,5 +18,6 @@ public class BigInteger {
         System.out.println(square);
         System.out.println(fourth);
         System.out.println(eighth);
+
     }
 }
