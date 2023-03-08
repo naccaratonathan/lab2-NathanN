@@ -14,7 +14,7 @@ public class Main {
         river = river.replace("ss","s");
         System.out.println(river.length());
 
-        // 2.6
+        // 2.6 AddTester
 
         java.awt.Rectangle box = new java.awt.Rectangle(5, 10, 20, 30);
         System.out.println(box);
@@ -24,6 +24,7 @@ public class Main {
         System.out.println(box);
         //java.awt.Rectangle[x=5,y=10,width=25,height=40]
 
+        //2.15 PointTester
 
     }
 
