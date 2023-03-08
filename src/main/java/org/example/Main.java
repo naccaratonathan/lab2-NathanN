@@ -17,12 +17,15 @@ public class Main {
         // 2.6 AddTester
 
         java.awt.Rectangle box = new java.awt.Rectangle(5, 10, 20, 30);
-        System.out.println(box);
-        //java.awt.Rectangle[x=5,y=10,width=20,height=30]
-
         box.add(0, 0);
-        System.out.println(box);
-        //java.awt.Rectangle[x=5,y=10,width=25,height=40]
+
+        System.out.println("Location " + box.getLocation());
+        System.out.println("Width " + box.getWidth());
+        System.out.println("Height " + box.getHeight());
+
+        System.out.println("Expected Location (0, 0)");
+        System.out.println("Expected Width (25.0)");
+        System.out.println("Expected Height (40.0)");
 
         //2.15 PointTester
 
