@@ -22,9 +22,11 @@ public class IntersectionDrawer extends JComponent {
         Rectangle rec1 = new Rectangle(5, 10, 100, 250);
         Rectangle rec2 = new Rectangle(55,60,100,250);
         Rectangle rec3 = rec1.intersection(rec2);
-
+        g2.setColor(Color.BLUE);
         ((Graphics2D) g2).draw(rec1);
+        g2.setColor(Color.MAGENTA);
         ((Graphics2D) g2).draw(rec2);
+        g2.setColor(Color.RED);
         ((Graphics2D) g2).draw(rec3);
 
 
